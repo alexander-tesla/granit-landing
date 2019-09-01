@@ -130,6 +130,7 @@ a {
 
 .delivery-section {
     background: url("../img/delivery-section-bg.png");
+    background-size: cover;
 }
 
 .delivery-content {
@@ -336,7 +337,10 @@ a {
 }
 
 .popular-image {
-    padding: 19px
+    padding: 19px;
+    width: 100%;
+    max-width: 183px;
+    height: auto;
 }
 
 .popular-goods {
@@ -378,3 +382,46 @@ a {
 }
 
 /* ----- popular section ----- */
+
+
+/* ----- services section ----- */
+
+.services {
+    background-color: #f4f4f4;
+}
+
+.services-content {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.services-title {
+    font-family: "GothamPro-Bold";
+    font-size: 20px;
+}
+
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.services-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    width: 32%;
+    margin-top: 63px;
+    border: 2px solid #f6f6f6;
+}
+
+.service {
+    font-family: "GothamPro-Medium";
+    font-size: 15px;
+    text-decoration: underline #cecece;
+}
+
+/* ----- services section ----- */
