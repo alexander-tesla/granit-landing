@@ -161,7 +161,7 @@ a {
 .delivery-button {
     margin-right: 30px;
     padding: 20px 30px;
-    font-family: "GothamPro-Medium"; 
+    font-family: "GothamPro-Medium";
     font-size: 12px;
     color: #292929;
     background-color: #ffd200;
@@ -224,7 +224,7 @@ a {
     margin-top: 46px;
     font-family: "GothamPro-Medium";
     font-size: 15px;
-    text-decoration: underline  #d7d7d7;
+    text-decoration: underline #d7d7d7;
 }
 
 .card-description {
@@ -277,7 +277,7 @@ a {
 
 .card-icon {
     width: 50px;
-    height: 50px; 
+    height: 50px;
     margin-top: 40px;
 }
 
@@ -303,48 +303,78 @@ a {
 /* ----- advantages section ----- */
 
 
+/* ----- popular section ----- */
 
+.popular {
+    background-color: #ffffff;
+}
 
+.popular-content {
+    padding: 80px 0;
+    text-align: center;
+}
 
+.popular-title {
+    font-family: "GothamPro-Bold";
+    font-size: 20px;
+}
 
+.popular-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 60px;
+}
 
+.popular-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 23.5%;
+    border: 2px solid #f6f6f6;
+}
 
+.popular-image {
+    padding: 19px
+}
 
+.popular-goods {
+    margin-bottom: 24px;
+    font-family: "GothamPro";
+    font-size: 13px;
+    text-decoration: underline #d7d7d7;
+}
 
+.popular-price {
+    font-family: "GothamPro-Medium";
+    font-size: 16px;
+}
 
+.popular-price_old {
+    font-family: "GothamPro";
+    font-size: 10px;
+}
 
+.popular-price_new {
+    font-family: "GothamPro-Medium";
+    font-size: 16px;
+    color: #ff2626;
+}
 
+.popular-button {
+    padding: 18px 58px;
+    margin: 25px 20px 20px 20px;
+    font-family: "GothamPro-Medium";
+    font-size: 12px;
+    background-color: #ffd200;
+    border: 2px solid #ffd200;
+    transition: 500ms;
+}
 
+.popular-button:hover {
+    background-color: transparent;
+    border: 2px solid #292929;
+}
 
-
-
-
-
-
-
-
-section ----- */
-/* ----- popular
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-section ----- */
+/* ----- popular section ----- */
