@@ -3,11 +3,11 @@
 /* ----- tag selectors ----- */
 
 body {
+    margin: 0;
     font-family: "GothamPro-Light";
     font-size: 16px;
     background-color: #ffffff;
     color: #292929;
-    margin: 0;
     scroll-behavior: smooth;
 }
 
@@ -15,6 +15,8 @@ a {
     text-decoration: none;
     color: #292929;
 }
+
+
 
 /* ----- tag selectors ----- */
 
@@ -25,6 +27,10 @@ a {
     max-width: 940px;
     width: 100%;
     margin: auto;
+}
+
+.padding {
+    padding: 0 40px;
 }
 
 /* ----- common styles ----- */
@@ -96,6 +102,30 @@ a {
     margin-right: 14px;
     max-height: 38px;
     height: 100%
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-logo {
+        padding-left: 40px;
+    }
+
+    .header-phone {
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header-logo {
+        padding-left: 20px;
+    }
+
+    .header-phone {
+        padding-right: 20px;
+    }
+
+    .header-phone-text-col {
+        margin-right: 10px;
+    }
 }
 
 /* ----- header hat ----- */
@@ -193,6 +223,18 @@ a {
     color: #ffd200;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .delivery-content {
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .delivery-content {
+        padding: 100px 0 70px 20px;
+    }
+}
+
 /* ----- delivery section ----- */
 
 
@@ -268,6 +310,51 @@ a {
     border: 2px solid #292929;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .stock-content {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .stock-content {
+        padding: 0 20px;
+        margin: 40px 0;
+    }
+
+    .stock-title {
+        margin-bottom: 30px;
+    }
+
+    .stock-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .card-img {
+        margin-top: 20px;
+    }
+
+    .card-title {
+        margin-top: 20px;
+    }
+
+    .card-description {
+        margin-top: 19px;
+        margin-bottom: 19px;
+        padding: 0 37px;
+    }
+
+    .card-button {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+
 /* ----- stock section ----- */
 
 
@@ -313,6 +400,32 @@ a {
     margin-bottom: 43px;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .advantages-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .advantages-content {
+        padding: 40px 20px;
+    }
+
+    .advantages-title {
+        margin-bottom: 30px;
+    }
+
+    .cards_advantage {
+        flex-direction: column;
+    }
+
+    .card_advantage {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
 /* ----- advantages section ----- */
 
 
@@ -335,6 +448,7 @@ a {
 .popular-cards {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: stretch;
     margin-top: 60px;
 }
@@ -394,6 +508,24 @@ a {
     border: 2px solid #292929;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .popular-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .popular-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ 
+    .popular-card {
+        width: 49%;
+    }
+}
+
 /* ----- popular section ----- */
 
 
@@ -447,6 +579,13 @@ a {
     font-family: "GothamPro-Medium";
     font-size: 15px;
     text-decoration: underline #cecece;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .services-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 /* ----- services section ----- */
@@ -505,6 +644,17 @@ a {
 .marker_yellow {
     font-size: 40px;
     color: #ffd200;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contacts-content {
+        justify-content: flex-end;
+        padding-right: 40px;
+    }
+
+    .marker_yellow {
+        display: none;
+    }
 }
 
 /* ----- contacts section ----- */
@@ -583,4 +733,12 @@ a {
     background-color: #ffd200;
     border: 2px solid #ffd200;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
 /* ----- footer section ----- */
