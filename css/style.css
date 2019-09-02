@@ -127,7 +127,6 @@ a {
         margin-right: 10px;
     }
 }
-
 /* ----- header hat ----- */
 
 
@@ -601,6 +600,19 @@ a {
     }
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+    .services-content {
+        padding: 40px 20px;
+    }
+
+    .services-card {
+        width: 100%;
+        margin-top: 10px;
+        min-height: 150px;
+    }
+}
+
+
 /* ----- services section ----- */
 
 
@@ -669,6 +681,27 @@ a {
         display: none;
     }
 }
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .contacts-content {
+        justify-content: center;
+        padding: 40px 20px;
+    }
+
+    .contacts-card {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .contacts-address {
+        margin: 10px 0 10px 15px;
+    }
+
+    .marker_yellow {
+        display: none;
+    }
+}
+
 
 /* ----- contacts section ----- */
 
@@ -751,6 +784,12 @@ a {
     .footer-content {
         padding-left: 40px;
         padding-right: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .footer-content {
+        padding: 20px;
     }
 }
 
