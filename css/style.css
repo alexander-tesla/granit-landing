@@ -517,12 +517,25 @@ a {
 
 @media (min-width: 576px) and (max-width: 767px) {
     .popular-content {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 40px 20px;
     }
- 
+    
+    .popular-cards {
+        margin-top: 30px;
+    }
+
     .popular-card {
-        width: 49%;
+        width: 48%;
+        margin-top: 5px;
+    }
+    
+    .popular-goods {
+        margin-bottom: 0px;
+    }
+
+    .popular-button {
+        margin: 0 20px 20px 10px;
+
     }
 }
 
