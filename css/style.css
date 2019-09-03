@@ -29,10 +29,6 @@ a {
     margin: auto;
 }
 
-.padding {
-    padding: 0 40px;
-}
-
 /* ----- common styles ----- */
 
 
@@ -127,6 +123,37 @@ a {
         margin-right: 10px;
     }
 }
+
+@media (max-width: 576px) {
+
+    .header-hat {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-logo {
+        margin-top: 15px;
+        margin-left: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-phone {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 10px;
+    }
+
+    .header-phone-text-col {
+        margin-right: 0px;
+        text-align: left;
+    }
+
+    .header-logo-bottom-row {
+        margin: 5px 0;
+    }
+}
+
 /* ----- header hat ----- */
 
 
@@ -157,7 +184,22 @@ a {
     color: #969696;
 }
 
+@media (max-width: 576px) {
+    .header-nav {
+        margin-top: 10px;
+    }
 
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav-item {
+        padding-top: 5px;
+    }
+
+}
 
 /* ----- header nav ----- */
 
@@ -231,6 +273,20 @@ a {
 @media (min-width: 576px) and (max-width: 767px) {
     .delivery-content {
         padding: 100px 0 70px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery-content {
+        padding: 60px 0 30px 10px;
+    }
+
+    .delivery-description {
+        margin-top: 20px;
+    }
+
+    .delivery-buttons {
+        margin-top: 20px;
     }
 }
 
@@ -322,7 +378,7 @@ a {
     }
 
     .stock-title {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .stock-cards {
@@ -351,6 +407,40 @@ a {
     .card-button {
         margin-top: 15px;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .stock-content {
+        padding: 0 10px;
+        margin: 20px 0;
+    }
+
+    .stock-title {
+        margin-bottom: 30px;
+    }
+
+    .stock-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 98%;
+        margin-bottom: 10px;
+    }
+
+    .card-img {
+        margin-top: 20px;
+    }
+
+    .card-title {
+        margin-top: 20px;
+    }
+
+    .card-description {
+        margin-top: 19px;
+        margin-bottom: 19px;
+        padding: 0 15px;
     }
 }
 
@@ -409,6 +499,25 @@ a {
 @media (min-width: 576px) and (max-width: 767px) {
     .advantages-content {
         padding: 40px 20px;
+    }
+
+    .advantages-title {
+        margin-bottom: 30px;
+    }
+
+    .cards_advantage {
+        flex-direction: column;
+    }
+
+    .card_advantage {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+}
+@media (max-width: 576px) {
+    .advantages-content {
+        padding: 20px 10px;
     }
 
     .advantages-title {
@@ -538,6 +647,31 @@ a {
     }
 }
 
+@media (max-width: 576px) {
+    .popular-content {
+        padding: 20px 10px;
+    }
+    
+    .popular-cards {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .popular-card {
+        width: 98%;
+        margin-top: 5px;
+    }
+    
+    .popular-goods {
+        margin-bottom: 0px;
+    }
+
+    .popular-button {
+        margin: 0 10px 10px 10px;
+
+    }
+}
+
 /* ----- popular section ----- */
 
 
@@ -603,6 +737,18 @@ a {
 @media (min-width: 576px) and (max-width: 767px) {
     .services-content {
         padding: 40px 20px;
+    }
+
+    .services-card {
+        width: 100%;
+        margin-top: 10px;
+        min-height: 150px;
+    }@media (max-width: 57@media (max-width: 576px)6px)
+}
+
+@media (max-width: 576px) {
+    .services-content {
+        padding: 20px 10px;
     }
 
     .services-card {
@@ -702,6 +848,26 @@ a {
     }
 }
 
+@media (max-width: 576px) {
+    .contacts-content {
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .contacts-card {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .contacts-address {
+        margin: 10px 0 10px 15px;
+    }
+
+    .marker_yellow {
+        display: none;
+    }
+}
+
 
 /* ----- contacts section ----- */
 
@@ -790,6 +956,36 @@ a {
 @media (min-width: 576px) and (max-width: 767px) {
     .footer-content {
         padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .footer-logo-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-title-wrap {
+        margin-top: 10px;
+    }
+
+    .footer-granti {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer-right-col {
+        text-align: left;
+    }
+
+    .footer-button {
+        margin-top: 20px;
     }
 }
 
